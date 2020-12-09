@@ -1,0 +1,5 @@
+["pyproject.toml".tool.poetry.dev-dependencies]
+bandit = "*"
+
+[nitpick.files.present]
+".bandit" = "Bandit must be present"
